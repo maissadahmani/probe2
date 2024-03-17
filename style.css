@@ -124,6 +124,26 @@ body {
   padding-bottom: 3px;
 }
 
+.nach-oben {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  bottom: 0px;
+  right: 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 0.5px solid #efefef;
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 0.2);
+  color: #132835;
+  background: #ec6b255e;
+  text-align: center;
+  align-content: center;
+}
+.bx-chevron-up {
+  padding-top: 3px;
+  font-size: 35px;
+}
+
 @media (min-width: 280px) and (max-width: 1000px) {
   body {
     padding: 0px 40px;
@@ -131,6 +151,15 @@ body {
   .head {
     flex-wrap: wrap;
     gap: 30px;
+  }
+   .nach-oben {
+    width: 37px;
+    height: 37px;
+    right: 2px;
+  }
+  .bx-chevron-up {
+    padding-top: 3px;
+    font-size: 25px;
   }
 }
 @media (max-width: 280px) {
@@ -185,6 +214,15 @@ body {
   }
   .pop-up {
     width: 200px;
+  }
+   .nach-oben {
+    width: 37px;
+    height: 37px;
+    right: 2px;
+  }
+  .bx-chevron-up {
+    padding-top: 3px;
+    font-size: 25px;
   }
 }
 
